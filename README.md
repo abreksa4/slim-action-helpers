@@ -4,6 +4,7 @@ slim-action-helpers
 ![build-status](https://travis-ci.org/abreksa4/slim-action-helpers.svg?branch=master) 
 ![license](https://img.shields.io/github/license/abreksa4/slim-action-helpers.svg) 
 ![stars](https://img.shields.io/github/stars/abreksa4/slim-action-helpers.svg)
+![Coverage Status](https://coveralls.io/repos/github/abreksa4/slim-action-helpers/badge.svg?branch=master)
 
 Quick and dirty helper classes for RAD slim 3 development that fully support the `__invoke` Slim 3 middleware and 
 callable paradigm. 
