@@ -1,0 +1,41 @@
+{
+  "name": "andrewbreksa/slim-action-helpers",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "A set of classes to make Slim 3 a bit easier to work with",
+  "authors": [
+    {
+      "name": "Andrew Breksa",
+      "email": "abreksa4@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "AndrewBreksa\\SlimActionHelpers\\": "./src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "./tests"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "psr/http-message": "^1.0",
+    "psr/container": "^1.0",
+    "nilportugues/api-problems": "^1.2",
+    "projek-xyz/slim-plates": "^0.2.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.2",
+    "phpunit/phpunit": "^7.5",
+    "php-coveralls/php-coveralls": "^2.1"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit ./tests --coverage-html ./coverage-report --whitelist ./src --coverage-clover build/logs/clover.xml"
+  }
+}
