@@ -5,9 +5,16 @@ slim-action-helpers
 ![license](https://img.shields.io/github/license/abreksa4/slim-action-helpers.svg) 
 ![stars](https://img.shields.io/github/stars/abreksa4/slim-action-helpers.svg)
 ![Coverage Status](https://coveralls.io/repos/github/abreksa4/slim-action-helpers/badge.svg?branch=master)
+![Latest Stable Version](https://poser.pugx.org/andrewbreksa/slim-action-helpers/v/stable)
+![Total Downloads](https://poser.pugx.org/andrewbreksa/slim-action-helpers/downloads)
 
 Quick and dirty helper classes for RAD slim 3 development that fully support the `__invoke` Slim 3 middleware and 
 callable paradigm. 
+
+# Install
+```bash
+composer require andrewbreksa/slim-action-helpers
+```
 
 # Examples
 

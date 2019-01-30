@@ -1,7 +1,7 @@
 {
   "name": "andrewbreksa/slim-action-helpers",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "library",
   "description": "A set of classes to make Slim 3 a bit easier to work with",
   "authors": [
